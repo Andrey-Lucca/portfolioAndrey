@@ -1,0 +1,343 @@
+@media(max-width:2560px){
+
+  h1{
+    font-size: 50px;
+  }
+  
+    .hw-container{
+      height: 100vh;
+    }
+  
+    .headers-btn{
+      font-size: 25px;
+    }
+    .container-tech{
+      padding: 0px;
+    }
+  
+    .imgs{
+      width: 200px !important;
+      height: 200px !important;
+    }
+  
+    #git-logo{
+      width: 100px !important;
+    }
+  
+    #bd-in{
+      width: 200px;
+      height: 50px;
+      font-size: 25px;
+      padding-top: 5px;
+    }
+  
+    #icon{
+      height: 120px;
+    }
+  
+    #contact{
+      font-size: 120px !important;
+    }
+  
+    .copyJavs{
+      font-size: 30px;
+    }
+  
+    #calc{
+      width: 900px !important;
+    }
+  
+    #form{
+      width: 900px !important;
+    }
+  
+    p{
+      font-size: 40px;
+    }
+  }
+  
+  
+  @media(max-width: 1800px){
+    .headers-btn{
+      font-size: 25px;
+    }
+    .container-tech{
+      padding: 0px;
+    }
+  
+    #git-logo{
+      width: 100px !important;
+    }
+  
+    #bd-in{
+      width: 200px;
+      height: 50px;
+      font-size: 25px;
+      padding-top: 5px;
+    }
+  
+    #icon{
+      height: 100px;
+    }
+  
+    #contact{
+      font-size: 120px !important;
+    }
+  
+    .copyJavs{
+      font-size: 30px;
+    }
+  
+    #calc{
+      width: 900px !important;
+    }
+  
+    #form{
+      width: 900px !important;
+    }
+  
+    p{
+      font-size: 30px;
+    }
+  
+    h3{
+      font-size: 35px;
+    }
+  }
+  
+  @media(max-width: 960px){
+    
+    .hw-container{
+      display: grid;
+      align-items: center;
+      justify-content:center ;
+      padding-left: 0px;
+    }
+    
+    .imgs-content{
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      gap: 15px;
+      align-items: center;
+    }
+  
+    .container-tech{
+      padding:0px;
+    }
+    .imgs{
+      width: 170px !important;
+      height:120px !important;
+    }
+  
+    .header-elements{
+      justify-content: space-around;
+      padding-left: 10px;
+      padding-right:10px ;
+    }
+    .headers-btn{
+      font-size: 25px;
+    }
+  
+    #bd-in{
+      width: 200px;
+      height: 50px;
+      font-size: 25px;
+      padding-top: 5px;
+    }
+  
+    #tec-used{
+      padding: 0px;
+    }
+  
+    #git-logo{
+      width: 80px !important;
+    }
+  
+  }
+  
+  @media(max-width:800px){
+  
+  .headers-btn{
+    font-size: 20px;
+  }
+    
+    .hw-container{
+      display: grid;
+      align-items: center;
+      justify-content:center ;
+      padding-left: 0px;
+    }
+  
+    h1{
+      font-size: 50px !important;
+    }
+  
+    .wc-h1{
+      padding-left: 80px;
+    }
+  
+    h3{
+      font-size: 35px !important;
+    }
+  
+    .description{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .imgs{
+      width: 120px !important;
+      height: 80px !important;
+    }
+  
+    #contact{
+      font-size: 60px !important;
+    }
+  
+    #calc{
+      width: 600px !important;
+    }
+    #form{
+      width: 600px !important;
+    }
+  
+    #contact{
+      font-size: 80px !important;
+    }
+  
+    #icon{
+      height: 100px;
+    }
+  }
+  
+  @media(max-width:685px){
+  
+    .header{
+      width: auto;
+      height: 50px;
+    }
+  
+    .header-elements{
+      gap: 20px;
+      justify-content: start;
+    }
+  
+    .headers-btn{
+      width: 100px;
+      font-size: 25px;
+      width: 150px
+    }
+  
+    .hw-container{
+      width: auto;
+      background-size:auto;
+      height: auto;
+    }
+  
+    .imgs{
+      width: 100px !important;
+      height: 70px !important;
+    }
+  
+    #calc{
+      width: 500px !important;
+    }
+  
+    #form{
+      width: 500px;
+    }
+  }
+  
+  .copyJavs{
+    margin: 0px !important;
+  }
+  
+  
+  @media(max-width:500px){
+  
+    *:not(.headers-btn):not(#contact){
+      font-size: 12px;
+    }
+  
+    .header{
+      height: 50px
+    }
+  
+    .header-elements{
+      width: 100%;
+      justify-content: space-between;
+    }
+    .headers-btn{
+      font-size: 20px;
+    }
+  
+  
+    h3{
+      font-size: 15px !important;
+    }
+  
+    .hw-container{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      width: 100%;
+    }
+  
+    .sp-animated{
+      padding:0px;
+      font-size: 20px !important;
+  }
+  
+  .my-desc{
+    width: 100%;
+  }
+  .imgs{
+    width: 100px !important;
+    height: 70px !important;
+  }
+  
+  h2{
+    font-size: 20px !important;
+  }
+  
+  p{
+    font-size: 15px !important;
+  }
+  
+  #icon{
+    width: 80px;
+    height: 40px;
+  }
+  
+  .icons{
+    padding-top: 20px;
+  }
+  
+  .imgs-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  #bd-in{
+    padding-top: 5px;
+    height: 40px;
+  }
+  
+  #contact{
+    font-size: 60px !important;
+  }
+  
+  #icon{
+    height: 70px;
+  }
+  
+  .copyJavs{
+    margin: 30px !important;
+    font-size: 30px !important;
+  }
+  
+  .calc{
+    width: auto;
+  }
+  }

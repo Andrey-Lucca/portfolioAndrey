@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andrey's portfolio</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./responsive.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+  <div class="main-container">
+    <header class='header'>
+     <div class='header-elements'>
+       <a href='#hw'><button class='headers-btn'>Start</button></a>
+       <a href='#am'><button class='headers-btn'>About me</button></a>
+       <a href='#projects'><button class='headers-btn'>Projects</button></a>
+       <a href='#ct'><button class='headers-btn'>Contact</button></a>
+     </div>
+    </header>
+    <div class = 'main-content'>
+     <div class='hw-container' id="#hw">
+       <h1 class = 'hw-h1'>Hello World, my name is Andrey Lucca</h1> 
+         <div class ='wc-port'>
+           <h1 class = 'wc-h1'>Welcome to my portfolio ;)</h1>
+         </div>
+       <h3 class='sp-animated'>Front-end developer</h3>
+       <div class='arrow'>
+       <a href= '#am'><img src ='./imgs/arrowDown.gif' alt="Arrow" class ='arrow-down'/></a>
+       </div>
+     </div>
+     <div class ='about-me' id ='am'>
+       <div class = 'my-desc'>
+         <h1 data-aos="fade-down-right" data-aos-duration = '500'>About me</h1>
+         <p class='description' data-aos="fade-down-right" data-aos-duration = '500'>Initially I think about becoming a front-end developer, 
+           however I will try to learn how the back-end works to improve my conception of how everything really works when used together.</p>
+         
+         <br/>
+         <p data-aos="fade-down-right" data-aos-duration = '500'>My traits: 
+           I am a very focused person, I believe that with effort we can always achieve the impossible</p>  
+           <h2 class='skills'>Skills:
+          </h2>
+           <div class ='container-tech'>
+           <br/>
+           <div data-aos="fade-down-right" data-aos-duration = '500' class="imgs-content" >
+            <img src = './imgs/pngwing.com.png' class ='imgs'></img>
+             <img src = './imgs/logo-css-3-2048.png' class ='imgs'></img>
+             <img src = './imgs/clipart4707396.png' class ='imgs' style="width: 80px;"></img>
+             <img src = './imgs/React-icon.svg.png' class ='imgs'></img>
+             <img src = './imgs/Bootstrap.png' class ='imgs'></img>
+             <img src = './imgs/377-3772047_sass-logo.png' class ='imgs'></img>
+             <img src = './imgs/C_Logo.png' class ='imgs c'></img>
+             <img src = './imgs/Git-Icon-1788C.png' class="imgs" style ='width:90px'></img>
+           </div>
+         </div>
+         <a href= '#projects'><img src = './imgs/arrowDown.gif' alt="Arrow" class ='arrow-down2'/></a>
+       </div>
+     </div>
+       <div class = "projects-container" id='projects'>
+         <h1 class='pj-text' style='padding-top:50px; padding-bottom: 50px'>Projects</h1>
+         <div class='projects'>
+           <div class='calc'>
+             <img src= './imgs/calc.png' id ='calc'></img>
+             <h2 class='pj-text'>Calculator</h2>
+             <div id='tec-used'>
+               <p id='bd-in'>HTML</p>
+               <p id='bd-in'>JavaScript</p>
+               <p id='bd-in'>SASS/SCSS</p>
+             </div>
+           </div>
+           <div class='challenge-form'>
+           <img id ='form' src="./imgs/forms.png" alt="forms" style="width: 700px;">
+           <h2 className='pj-text'>Form with progress bar</h2>
+              <p className='pj-text'>A form that requires the user to fill in a field and a progress bar increases</p>
+              <div id='tec-used'>
+                <p id='bd-in'>React</p>
+              </div>
+              <a href='https://github.com/Andrey-Lucca/FormChallenge' target=blank><img src='./imgs/github-mark.png'style='width:50px; cursor: pointer' id="git-logo"></img></a>
+            </div>
+         </div>
+         <div class="arrow  ">
+          <a href= '#ct'><img src = './imgs/arrowDown.gif' alt="Arrow" class ='arrow-down'/></a>
+         </div>
+         <p style="display: flex; padding-top: 20px; flex-direction: row-reverse;" class="add">
+         /*All information about the challenges are in the "app.js" file on github*/
+       </p>
+       </div>
+       <div class='contacts-container' id='ct'>
+         <h1 id='contact' data-aos="fade-right" data-aos-duration = "750">Contact me</h1>
+       <div class='icons' data-aos="fade-down" data-aos-duration = "750" > 
+       <a href='https://www.linkedin.com/in/andrey-lucca-gon%C3%A7alves-vieira-1b2002264/' target= blank><svg id ='icon' xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+         <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+       </svg></a>
+       <svg onclick=showEmail() id ='icon' xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope email" viewBox="0 0 16 16">
+         <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+       </svg> 
+       <a href='https://api.whatsapp.com/send?1=pt_BR&phone=14996577352' target= blank><svg id ='icon' xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+         <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+       </svg></a>
+       <svg onclick= downloadCv() id = 'icon' xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-text-fill" viewBox="0 0 16 16">
+         <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM5 4h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm0 2h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1z"/>
+       </svg>
+       </div>
+       <span class="me-4 copyJavs" style="margin-top: 50px;">Andrey Lucca © 2023</span>
+       </div>
+    </div>
+   </div>
+   <script src="./index.js"></script>
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
